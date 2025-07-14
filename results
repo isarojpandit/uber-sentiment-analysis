@@ -1,0 +1,8 @@
+📊 Enhanced Model Performance Leaderboard
+
+| Model          | Type              | Accuracy (%) | Precision | Recall | F1-Score | Notes                                            |
+| -------------- | ----------------- | ------------ | --------- | ------ | -------- | ------------------------------------------------ |
+| VADER          | Lexicon-based     | 74.3         | 0.72      | 0.73   | 0.72     | Good for general sentiment but limited nuance    |
+| TextBlob       | Rule-based        | 71.5         | 0.70      | 0.69   | 0.69     | Simple polarity scoring, sometimes inconsistent  |
+| BERT (RoBERTa) | Transformer-based | 89.0         | 0.88      | 0.89   | 0.88     | High performance on short texts and social media |
+| BiLSTM         | Deep Learning     | 91.3         | 0.90      | 0.91   | 0.90     | Forecasts sentiment over time using sequences    |
